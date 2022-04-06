@@ -4,14 +4,11 @@
   padding: 0;
 
   box-sizing: border-box;
+  background-color: black;
 }
 
-header {
-  height: 230px;
-
-  background-image: url("../img/logo.jfif");
-
-  margin-right: 1190px;
+/*header {
+  height: 240px;
 
   background-size: auto;
 
@@ -19,7 +16,39 @@ header {
 
   transition: ease 1s;
 
-  padding-top: 100px;
+  padding-top: 0;
 
-  background-color: aquamarine;
+  background-color: black;
+}*/
+
+#logo {
+  background-color: black;
+}
+
+#logo img {
+  width: 150px;
+  height: auto;
+  margin-bottom: -90px;
+  padding-left: 8px;
+}
+
+nav {
+  text-align: left;
+  padding-left: 200px;
+  padding-bottom: 23px;
+  padding-right: 50px;
+  background-color: black;
+}
+nav ul li {
+  display: inline-block;
+  padding: 7px;
+  background-color: black;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+nav ul li a {
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
 }
