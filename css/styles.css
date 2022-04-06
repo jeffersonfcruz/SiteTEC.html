@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+header {
+  height: 230px;
+
+  background-image: url("../img/logo.jfif");
+
+  margin-right: 1190px;
+
+  background-size: auto;
+
+  background-position: 0 -300px;
+
+  transition: ease 1s;
+
+  padding-top: 100px;
+
+  background-color: aquamarine;
+}
