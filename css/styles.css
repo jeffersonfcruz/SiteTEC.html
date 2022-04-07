@@ -166,9 +166,10 @@ h3 {
 /*----------------------- Fim do estilo de serviços ----------------------- */
 /*----------------------- Formatação CSS para pagina contato ----------------------- */
 main form {
-  width: 40%;
+  width: 90%;
+  height: 500px;
   padding: 10px;
-  background-color: khaki;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -195,6 +196,7 @@ main form select {
 main form textarea {
   border: 1px solid silver;
   margin-bottom: 10px;
+  height: 250px;
 }
 main form input[type="submit"] {
   padding: 0px;
@@ -208,7 +210,7 @@ main form input[type="submit"] {
 /*----------------------- Final da Formatação CSS para pagina contato ----------------------- */
 /*----------------------- Inicio Formatação CSS para pagina localização ----------------------- */
 #mapa iframe {
-  padding-top: 100px;
+  padding-top: 30px;
   padding-left: 20px;
   width: 99%;
   height: 600px;
