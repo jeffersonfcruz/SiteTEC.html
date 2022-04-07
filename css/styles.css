@@ -98,7 +98,7 @@ h2 {
   font-family: "arial";
   font-size: 20pt;
   margin: 50px;
-  border-bottom: 5px solid khaki;
+  border-bottom: 5px solid white;
 }
 #home p {
   width: 80%;
@@ -128,31 +128,7 @@ h2 {
   opacity: 1;
 }
 /*----------------------- Fim da HOME ----------------------- */
-/*----------------------- Inicio do estilo da historia ----------------------- */
-#historia p {
-  width: 70%;
-  font-family: arial;
-  font-size: 12pt;
-  line-height: 30pt;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-}
-#imghistoria {
-  text-align: center;
-}
-#imghistoria img {
-  width: 150px;
-  height: 150px;
-  margin: 10px;
-}
-iframe {
-  width: 100%;
-  height: 500px;
-  margin: 20px;
-}
-/*----------------------- Fim do estilo da historia ----------------------- */
-/*----------------------- Inicio do estilo do cardapio ----------------------- */
+/*----------------------- Inicio do estilo da pagina serviços ----------------------- */
 h3 {
   font-family: Arial;
   font-size: 12pt;
