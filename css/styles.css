@@ -1,26 +1,10 @@
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
   background-color: black;
+  color: white;
 }
-
-/*header {
-  height: 240px;
-
-  background-size: auto;
-
-  background-position: 0 -300px;
-
-  transition: ease 1s;
-
-  padding-top: 0;
-
-  background-color: black;
-}*/
-
 #logo {
   background-color: black;
 }
@@ -51,4 +35,298 @@ nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: white;
+}
+h2 {
+  font-family: "arial";
+  font-size: 20pt;
+  margin: 50px;
+  border-bottom: 5px solid white;
+}
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 12pt;
+  /* espaçamento entre linhas */
+  line-height: 15pt;
+  text-align: justify;
+}
+#imghome {
+  text-align: center;
+}
+#imghome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: ease 0.5s;
+  /* mudar o pónteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imghome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+footer {
+  height: 300px; /*altura em pixels*/
+  background-color: black;
+  color: white;
+  font-family: "arial";
+  padding-top: 50px;
+  /*Dispor de forma flexivel e em linha*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  width: 20%;
+  margin: 20px;
+}
+#redes ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+#redes ul li a img {
+  width: 51px;
+  height: 51px;
+}
+/*----------------------- Inicio do css da HOME ----------------------- */
+h2 {
+  font-family: "arial";
+  font-size: 20pt;
+  margin: 50px;
+  border-bottom: 5px solid khaki;
+}
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 12pt;
+  /* espaçamento entre linhas */
+  line-height: 15pt;
+  text-align: justify;
+}
+#imghome {
+  text-align: center;
+}
+#imghome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: ease 0.5s;
+  /* mudar o pónteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imghome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+/*----------------------- Fim da HOME ----------------------- */
+/*----------------------- Inicio do estilo da historia ----------------------- */
+#historia p {
+  width: 70%;
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imghistoria {
+  text-align: center;
+}
+#imghistoria img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+}
+/*----------------------- Fim do estilo da historia ----------------------- */
+/*----------------------- Inicio do estilo do cardapio ----------------------- */
+h3 {
+  font-family: Arial;
+  font-size: 12pt;
+  margin: 30px;
+}
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* quebra de linha */
+  box-shadow: 2px 2px 5px black;
+  justify-content: center;
+}
+#linha div {
+  width: 30%;
+  margin: 10px;
+  /* borda na div */
+  border: 1px solid black;
+}
+#linha div img {
+  width: 100%;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: red;
+  font-weight: bold;
+}
+/*----------------------- Fim do estilo do cardapio ----------------------- */
+/*----------------------- Formatação CSS para pagina contato ----------------------- */
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: khaki;
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 2px solid gray;
+  border-radius: 5px;
+  display: block;
+}
+main form input[type="tel"],
+main form select {
+  width: 30%;
+  display: inline-block;
+  margin: 17px;
+  margin-left: 70px;
+}
+main form textarea {
+  border: 1px solid silver;
+  margin-bottom: 10px;
+}
+main form input[type="submit"] {
+  padding: 0px;
+  border: 0px;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+/*----------------------- Final da Formatação CSS para pagina contato ----------------------- */
+/*----------------------- Inicio Formatação CSS para pagina localização ----------------------- */
+#mapa iframe {
+  width: 97%;
+  height: 600px;
+}
+/* ----------------------- Fim Formatação CSS para pagina localização ----------------------- */
+/* ----------------------- Area dos breakpoints ----------------------- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 575px) {
+  header {
+    background-size: cover;
+    background-position: 0px 0px;
+  }
+  header a {
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #fechar {
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-size: 20pt;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-decoration: none;
+    transform: rotate(180deg);
+  }
+  nav {
+    width: 130px;
+    height: 100vh; /*altura da tela do dispositivo*/
+    position: absolute; /*definindo uma posição "fixa" na tela*/
+    z-index: 10000; /* empilhamento. fazendo ficar acima de 9999 itens.*/
+    top: 0; /* posição inicial de topo em 0*/
+    left: -150px; /* posição inicial a esquerda em 0*/
+    padding-top: 250px;
+    text-align: left;
+  }
+  nav ul li {
+    display: block;
+  }
+  iframe {
+    width: 90%;
+  }
+  #linha {
+    flex-direction: column;
+  }
+  #linha div {
+    width: 80%;
+  }
+  main form {
+    width: 90%;
+  }
+  #imghome img {
+    border-radius: 0px;
+    opacity: 1;
+    transition: ease 0.5s;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer #endereco {
+    width: 80%;
+    margin: auto;
+  }
+  #mapa iframe {
+    width: 90%;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+  }
 }
